@@ -41,3 +41,24 @@ console.log( amount.toFixed( 2 ) ); // "215.98"
 ```
 
 ## Blocks
+JavaScript blocks serve to group a series of statements together.
+
+To group statements using JavaScript, just use a curly-brace pair `{...}`.
+
+The below code uses blocks to group statements:
+```js
+{
+  let URL = 'https://www.google.com';
+  console.log(URL);
+}
+```
+
+Generally, you don't see this kind of standalone grouping blocks.
+A common block is seen in the below code:
+```js
+let status = true;
+
+if (status) { console.log('The status is set to: ' + status); } // <- the block is attached to the if statement
+```
+
+### Conditionals
